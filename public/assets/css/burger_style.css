@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    overflow: hidden;
+    color: rgb(2, 2, 2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+  }
+  
+  input {
+    color: #000 ;
+  }
+  
+  .uneaten-title {
+    text-align: center;
+  }
+  
+  #burger-title {
+    margin-top: 10px;
+    margin-bottom: 25px;    
+    text-shadow: -10px 10px 0px red,
+                 -20px 20px 0px green,
+                 -30px 30px 0px bisque;
+  }
+  
+
+  
+  ul.uneaten li{
+    display: inline-block;
+    float: right;
+    list-style-type:none;
+    margin: 30px;
+  }
+  
+  #update {
+  text-align: center;
+  }
+  
+  #eaten {
+    text-align: center;
+  }
+  
+  .burgers-eaten {
+    overflow-y: scroll;
+  }
+  
+  button {
+    background-color: #000;
+    color: yellow;
+  }
